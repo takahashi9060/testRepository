@@ -9,7 +9,7 @@
 		updated_at as updatedAt FROM todos
 	</select>
 
-	<!-- 1件検索 -->
+	<!-- 1件検索 --><!-- コメント -->
 	<select id="selectById"
 		resultType="com.example.webapp.entity.ToDo">
 		SELECT id, todo,detail,created_at as createdAt,
